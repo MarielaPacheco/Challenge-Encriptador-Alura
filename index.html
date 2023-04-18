@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Challenge Encriptador</title>
+        <link rel="stylesheet" href="style.css">
+        <script type="text/javascript" src="script.js"></script>
+    </head>
+    <body>
+        
+        <div class="caja-redaccion">
+            <div class= "logo-alura">
+                <img class="logoimg" src="Vector.png" alt="logo diseño alura">
+                <h1 class="titulo-principal">Encriptador de mensajes Alura</h1>
+            </div>
+        
+            <div class="caja-texto">
+                <input type="text" id="inputtexto" placeholder="Ingrese el texto aqui">
+            </div>
+
+            <div class="caja-encriptar-desencriptar">
+                <img id="muñecoderecho" src="Muñeco.png" alt="muñeco encriptor-desencriptor">
+                <h1 id="ningunmensajeencontrado">Ningun mensaje fue encontrado</h1>
+                <textarea id="ingresetexto">Ingrese el texto que le gustaria encriptar o desencriptar</textarea>
+                <button type="button" id="boton-copiar" onclick="copiar()">Copiar</button>
+            </div>
+            <div class="botones">
+                <p class="mensaje3">Solo minusculas y sin acento</p>
+                <button type="button" id="boton-encriptar" onclick="encriptar()">Encriptar</button>
+                <button type="button" id="boton-desencriptar" onclick="desencriptar()">Desencriptar</button>
+
+            </div>
+        </div>
+
+        <footer>
+            <p class="copyright">&copy Copyright Encriptador Mariela Pacheco-2023</p>
+        </footer>
+        
+    </body>
+</html>

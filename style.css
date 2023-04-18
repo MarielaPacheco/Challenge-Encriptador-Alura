@@ -1,0 +1,144 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(fondo.jpg);
+}
+
+.caja-redaccion{
+    margin: auto;
+    width: 960px;
+    height: 650px;
+    padding: 5px;
+    background: aliceblue;
+}
+
+.logo-alura{
+    width: 100%;
+    float: left;
+}
+.logoimg{
+    margin-top: 5%;
+    margin-left: 5%;
+    float: inherit;
+}
+
+.titulo-principal{
+    margin-top: 5%;
+    margin-left: 15%;
+    float: inherit;
+    font-size: 40px;
+    font-style: italic;
+
+}
+
+.caja-texto{
+    float: left;
+    width: 60%;
+    height: 55%;
+    border-radius: 10%;
+}
+
+.caja-encriptar-desencriptar{
+    float: right;
+    width: 40%;
+    height: auto;
+    border-radius: 20%;
+    background: aliceblue;
+}
+.copyright{
+    float: right;
+    width: 40%;
+    height: 10%;
+    font-size: 20px;
+    color: black;
+}
+
+#inputtexto{
+    float: left;
+    margin-left: 10%;
+    margin-top: 7%;
+    width: 80%;
+    height: 80%;
+    color: #5564eb;
+    font-size: 25px;
+    font-style: bold;
+}
+
+#muñecoderecho{
+    margin-top: 5%;
+    margin-right: 20%;
+    width: 80%;
+    height: 40% ;
+}
+
+#ningunmensajeencontrado{
+    margin-left: 10%;
+    margin-right: 15%;
+    font: italic;
+    font-size: 20px;
+    font-style: bold;
+}
+
+#ingresetexto{
+    float:left;
+    margin-left: 10%;
+    width: 70%;
+    height: 50%;
+    font-size: 15px;
+    font-style: oblique;
+}
+
+
+.botones{
+    float: left;
+    width: 60%;
+    height: auto;
+    border-radius: 10%;
+}
+
+.mensaje3{
+    font-size: 20px;
+    margin-left: 30%;
+    font-style: oblique;
+    color: black;
+
+}
+
+#boton-copiar{
+    padding: 24px;
+    width: 30%;
+    height: 60%;
+    border-radius: 24px;
+    margin-left: 30%;
+    margin-top: 90%;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    font: bold;
+    display: none;
+}
+
+#boton-encriptar{
+    padding: 24px;
+    width: 30%;
+    height: 60%;
+    border-radius: 24px;
+    margin-left: 15%;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    font: bold;
+    margin-bottom: 3%;
+}
+
+#boton-desencriptar{
+    padding: 24px;
+    width: 30%;
+    height: 60%;
+    border-radius: 24px;
+    margin-left: 15%;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    font: bold;
+}
